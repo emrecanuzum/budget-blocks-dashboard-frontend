@@ -69,7 +69,7 @@ function App() {
             <h3>Distribution of Expenditures last 30 days</h3>
             <img src={pieChart} alt=''></img>
             <div className='pieTextPart'>
-              <div className='pieTextPartRow'>
+              <div className='pieTextPartGrid'>
                 <h1>Salaries</h1>
                 <h1>Outsourced labor</h1>
                 <h1>Marketing</h1>
@@ -77,7 +77,7 @@ function App() {
                 <h1>Travel costs</h1>
                 <h1>Other</h1>   
               </div>
-              <div className='pieTextPartRow'>
+              <div className='pieTextPartGrid'>
                 <h2>$ 32,120.50</h2>
                 <h2>$ 17,505.00</h2>
                 <h2>$ 14,440.00</h2>
@@ -85,7 +85,7 @@ function App() {
                 <h2>$ 5,765.45</h2>
                 <h2>$ 3,119.05</h2>
               </div>
-              <div className='pieTextPartRow'>
+              <div className='pieTextPartGrid'>
                 <h3>1,776.90 SOL</h3>
                 <h3>968.35 SOL</h3>
                 <h3>798.69 SOL</h3>

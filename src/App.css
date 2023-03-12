@@ -129,27 +129,31 @@ body {
 }
 .verticalPieBox img{
 width: 15vw;
+margin-left: -.6vw;
 }
 .pieTextPart{
   text-align: left;
   display: flex;
   justify-content: space-between;
+  margin-bottom: -2vw;
+  margin-top: 1vw;
 }
-.pieTextPartRow{
+.pieTextPartGrid{
   display: grid;
-  margin-top: -1vw;
+  margin-top: -1.5vw;
+
 }
-.pieTextPartRow h1{
+.pieTextPartGrid h1{
   margin-left: 1vw;
   color: #8B8B8B;
   font-size: 0.8vw;
 } 
-.pieTextPartRow h2{
+.pieTextPartGrid h2{
   color: #ffffff;
   margin-left: 2vw;
   font-size: 0.8vw;
 } 
-.pieTextPartRow h3{
+.pieTextPartGrid h3{
   color: #d1d1d1;
   font-size: 0.8vw;
   margin-right: 1vw;
