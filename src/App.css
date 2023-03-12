@@ -42,6 +42,10 @@ body {
 .Main{
   margin-left: 22vw;
 }
+.headPart{
+  display: flex;
+  justify-content: space-between;
+}
 .helloPart{
   padding-top: 3vw;
   display: flex;
@@ -60,6 +64,18 @@ body {
   font-size: 1.2vw;
   padding-top: 1.5vw;
 }
+.searchBar{
+  display: flex;
+  margin-top: 5vw;
+  margin-right: 5vw;
+  height: 1.8vw;
+  background-color: white;
+}
+.searchBar input{
+  border-color: #23232300;
+  height: 1.5vw;
+  width: 9vw;
+}
 .GridBox{
   display: flex;
 }
@@ -67,6 +83,65 @@ body {
   margin-right: 2vw;
   border-radius: 10%;
   background-color: #434343;
-  width: 12vw;
-  height: 10vw;
+  width: 14vw;
+  height: 11vw;
+}
+.miniBox h3{
+  color: #8B8B8B;
+  font-weight: 1000;
+  font-size: 1.2vw;
+  margin-left: 1.5vw;
+}
+.miniBox h6{
+  color: #ffffff;
+  font-weight: 1000;
+  font-size: 1vw;
+  margin-left: 4vw;
+  margin-top: 1.5vw;
+}
+.solPart{
+  display: flex;
+  margin-left: 1.5vw;
+  margin-top: -.2vw;
+}
+.solPart img{
+  height: 100%;
+}
+.solPart p{
+  color: white;
+  font-size: 1vw;
+  margin-top: .2vw;
+  margin-left: 1vw;
+}
+.verticalPieBox{
+  margin-right: 2vw;
+  border-radius: 8%/5%;
+  background-color: #434343;
+  width: 25vw;
+  height: 32vw;
+  text-align: center;
+}
+.verticalPieBox h3{
+  color: #8B8B8B;
+  font-weight: 1000;
+  font-size: 1.2vw;
+  margin-left: -1.5vw;
+}
+.verticalPieBox img{
+  
+}
+.bottomBox{
+  margin-top: -19vw;
+  margin-right: 2vw;
+  border-radius: 4%/8%;
+  background-color: #434343;
+  width: 46vw;
+  height: 19vw;
+  text-align: center;
+}
+.bottomBox img{
+  margin-top: 2vw;
+  margin-left: -1.5vw;
+  height: auto;
+  width: 40vw;
 }
